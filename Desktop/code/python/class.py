@@ -11,7 +11,7 @@ class Carre:
         self.unCote = cote
         self.perimetre = self.fctPerimetre() #ou @property
     def fctPerimetre(self):                  #    def fctPerimetre(self):
-        return self.unCote * 4                 #        return self.cote * 4
+        return self.unCote * 4                 #        return self.Uncote * 4
 
 if __name__ == '__main__' :
     a = Carre(10)
